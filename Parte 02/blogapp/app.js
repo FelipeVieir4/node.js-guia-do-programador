@@ -6,10 +6,10 @@
 
 //Configurações
     //body-parse => descontinuado! agora usamos app.use do express
-    app.use(express.urlencoded({ extended: false }))
+    app.use(express.urlencoded({ extended: true }))
     app.use(express.json())
+    
     //Handlebars
- 
     app.engine('handlebars', engine({
         defaultLayout: 'main',
         runtimeOptions: {
@@ -21,8 +21,12 @@
 
     //mongoose
 
+    //Public -> para arquivos estáticos
+    app.use(express.static("public"))
+
 //Rotas
     app.use('/admin', admin)
+
 //Outros
 
 const PORT = 8081
