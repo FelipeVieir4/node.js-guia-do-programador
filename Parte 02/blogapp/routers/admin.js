@@ -8,7 +8,10 @@ router.get('/posts', (req,res) => {
     res.send("Página de posts")
 })
 router.get('/categorias', (req,res) => {
-    res.send("Página de categorias")
+    res.render("admin/categorias")
 })
 
+router.get('/categorias/add', (req,res) => {
+    res.render("admin/addcategorias")
+})
 export default router; 
