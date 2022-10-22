@@ -3,3 +3,22 @@
 <a href="/admin/categorias/add">
     <button class="btn btn-success">Nova Categoria</button>
 </a>
+
+{{#each categorias}}
+<div class="card mt-4">
+    <div class="card card-body">
+        <h4>{{nome}}</h4>
+        <small>Slug: {{slug}}</small>
+        <small>Data de criação: {{date}}</small>
+        <br>
+        <div style="display : flex;
+              flex-direction : row">
+            <a href="/admin/categorias/edit/{{_id}}"><button class="btn btn-primary btn-sm ms-4">Editar categoria</button></a>
+            <a href="#"><button class="btn btn-danger btn-sm ms-4">Deletar categoria</button></a>
+        </div>
+
+    </div>
+</div>
+{{else}}
+
+{{/each}}

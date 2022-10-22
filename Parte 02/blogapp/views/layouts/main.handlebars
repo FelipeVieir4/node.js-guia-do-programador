@@ -11,7 +11,11 @@
 
 <body>
     {{>_navbar}}
-    <div class="container mt-4">{{{body}}}</div>
+
+    <div class="container mt-4">
+        {{>_msg}}
+        {{{body}}}
+        </div>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
