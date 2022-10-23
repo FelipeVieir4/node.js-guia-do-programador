@@ -1,7 +1,7 @@
 <h2>Lista de categorias</h2>
 <hr>
 <a href="/admin/categorias/add">
-    <button class="btn btn-success">Nova Categoria</button>
+    <button class="btn btn-outline-success">Nova Categoria</button>
 </a>
 
 {{#each categorias}}
@@ -14,11 +14,14 @@
         <div style="display : flex;
               flex-direction : row">
             <a href="/admin/categorias/edit/{{_id}}"><button class="btn btn-primary btn-sm">Editar categoria</button></a>
-            <a href="#"><button class="btn btn-danger btn-sm ms-4">Deletar categoria</button></a>
+            <form action="/admin/categorias/delete" method="post">
+                <input type="hidden" name="id" value="{{_id}}">
+                <button type="submit" class="btn btn-danger btn-sm ms-4">Deletar categoria</button>
+            </form>
         </div>
 
     </div>
 </div>
 {{else}}
-
+    <h4 class="mt-4">Nenhuma categoria registrada.</h4>
 {{/each}}
