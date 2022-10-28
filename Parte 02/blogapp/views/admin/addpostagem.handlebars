@@ -1,7 +1,13 @@
+{{#each erros}}
+    <div class="alert alert-danger"> {{texto}}</div>
+{{else}}
+
+{{/each}}
+
 <div class="card">
     <div class="card card-body">
         <h4>Nova Categoria:</h4>
-        <form action="" method="post">
+        <form action="/admin/postagens/nova" method="post">
             <label for="titulo">Título:</label>
             <input type="text" name="titulo" class="form-control">
             <label for="slug">Slug:</label>
@@ -11,11 +17,11 @@
             <label for="conteudo">Conteúdo:</label>
             <textarea name="conteudo" class="form-control"></textarea>
             <label for="categorias">Categorias:</label>
-            <select name="categorias" class="form form-control">
+            <select name="categorias" class="form form-control custom-select">
                 {{#each categorias}}
                     <option value="{{_id}}"> {{nome}}</option>
                 {{else}}
-                    <option value=""> Nenhuma categoria registrada</option>
+                    <option value="0"> Nenhuma categoria registrada</option>
                 {{/each}}
 
             </select>

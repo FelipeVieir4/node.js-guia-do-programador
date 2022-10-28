@@ -4,22 +4,22 @@ const Schema = mongoose.Schema;
 const Postagem = new Schema({
     titulo: {
         type: String,
-        require: true,
+        require: true
     },
     slug: {
         type: String,
-        require: true,
+        require: true
     },
     descricao: {
         type: String,
-        require: true,
+        require: true
     },
     conteudo: {
         type: String,
-        require: true,
+        require: true
     },
-    categoria:{
-        tyoe: Schema.Types.ObjectId,
+    categoria: {
+        type: Schema.Types.ObjectId,
         ref: "categorias",
         require: true
     },
