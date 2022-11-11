@@ -11,21 +11,21 @@ Parte 02 -> Projeto de um blog com CRUD básico
 
 ### Tecnologias
 
-<a href="https://nodejs.org/en/" target="_blank">[x] Node.JS </a>
+- [x] <a href="https://nodejs.org/en/" target="_blank">Node.JS </a>
 
-<a href="https://expressjs.com/pt-br/" target="_blank">[x] Express </a>
+- [x] <a href="https://expressjs.com/pt-br/" target="_blank">Express </a>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">[x] JavaScript </a>
+- [x] <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript </a>
 
-<a href="https://www.mysql.com/" target="_blank">[x] MySQL </a>
+- [x] <a href="https://www.mysql.com/" target="_blank">MySQL </a>
 
-<a href="https://sequelize.org/" target="_blank">[x] Sequelize </a>
+- [x] <a href="https://sequelize.org/" target="_blank">Sequelize </a>
 
-<a href="https://www.mongodb.com/" target="_blank">[x] MongoDB </a>
+- [x] <a href="https://www.mongodb.com/" target="_blank">MongoDB </a>
 
-<a href="https://handlebarsjs.com/" target="_blank">[x] Handlebars </a>
+- [x] <a href="https://handlebarsjs.com/" target="_blank">Handlebars </a>
 
-<a href="https://www.heroku.com/" target="_blank">[_] Heroku </a>
+- [x] <a href="https://www.heroku.com/" target="_blank">Heroku </a>
 
 ### Impacto
 
