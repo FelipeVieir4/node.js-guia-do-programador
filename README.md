@@ -25,7 +25,9 @@ Parte 02 -> Projeto de um blog com CRUD básico
 
 - [x] <a href="https://handlebarsjs.com/" target="_blank">Handlebars </a>
 
-- [x] <a href="https://www.heroku.com/" target="_blank">Heroku </a>
+- [x] <a href="https://handlebarsjs.com/" target="_blank">Passport.js </a>
+
+- [x] <a href="https://www.passportjs.org/" target="_blank">Heroku </a>
 
 ### Impacto
 
