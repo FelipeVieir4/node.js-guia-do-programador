@@ -1,0 +1,28 @@
+<div class="body">
+  <div class="card card-body">
+    <h2>Página inicial</h2>
+    <p>Esta é a página inicial</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates adipisci voluptas autem earum totam
+      officia, molestiae eos maxime error laboriosam itaque consequuntur ipsum deserunt consequatur debitis dignissimos,
+      cum aliquam quae, quis recusandae! Fugiat, fugit corporis libero ipsum, voluptate perferendis deleniti labore quia
+      natus ut commodi totam expedita, excepturi optio?</p>
+
+    <div><a href="/usuarios/registro"><button class="btn btn-success">Criar conta</button></a></div>
+  </div>
+</div>
+
+
+{{#each postagens}}
+<div class="card mt-4">
+  <div class="card card-body">
+    <h4>{{titulo}}</h4>
+    <p>{{descricao}}</p>
+    <a href="/postagem/{{slug}}"><button class="btn btn-success"> Leia Mais </button></a>
+    <hr>
+    <small>{{categoria.nome}}</small>
+    <small>{{date}}</small>
+  </div>
+</div>
+{{else}}
+
+{{/each}}

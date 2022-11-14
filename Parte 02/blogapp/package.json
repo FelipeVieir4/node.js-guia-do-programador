@@ -1,20 +1,23 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto derivado do curso de NODE.JS do canal Guia do Programador",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luiz Felipe Vieira",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
-    "express": "^4.18.2", 
+    "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
-    "mongoose": "^6.6.5"
+    "mongoose": "^6.6.5",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
   }
 }
