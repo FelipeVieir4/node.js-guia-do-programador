@@ -2,10 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Projeto derivado do curso de NODE.JS do canal Guia do Programador",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node ./Parte02/blogapp/app.js"
   },
   "keywords": [],
   "author": "Luiz Felipe Vieira",
