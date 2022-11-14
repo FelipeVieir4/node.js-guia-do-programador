@@ -14,6 +14,7 @@ import Usuarios from './routers/usuario.js'
 import passport from 'passport'
 import passportConfig from './config/auth.js'
 passportConfig(passport)
+import uri from "./config/db.js"
 
 //Configurações
 
@@ -53,7 +54,7 @@ app.set('view engine', 'handlebars');
 
 //mongoose
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/blogapp", {
+mongoose.connect(uri.mongoURI, {
     useNewUrlParser: true
 }).then(() => {
     console.log("MongoDB Conectado...")
@@ -116,7 +117,7 @@ app.use('/admin', admin)
 app.use('/usuarios', Usuarios)
 
 //Outros
-const PORT = 8081
+const PORT = process.env.PORT || 8081
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`)
 })

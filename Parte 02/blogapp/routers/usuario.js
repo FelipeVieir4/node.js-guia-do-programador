@@ -97,7 +97,7 @@ router.get("/logout", (req, res) => {
         req.flash("success_msg", "Deslogado com sucesso!")
         res.redirect("/")
     })
-   
-    
+
+
 })
 export default router;
