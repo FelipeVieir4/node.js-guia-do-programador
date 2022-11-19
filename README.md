@@ -7,7 +7,7 @@ Repositório de estudos do canal <a href="https://www.youtube.com/c/GuiadoProgra
 Nesse curso pude aprender tecnologias que envolvem back-end que conheci através da <a href="https://github.com/Universidade-Livre/ciencia-da-computacao" target="_blank"> Universidade Brasileira Livre </a> no GitHub.
 
 Parte 01 -> Teoria e conceitos básicos <br>
-Parte 02 -> Projeto de um blog com CRUD básico
+Parte 02 -> Projeto de um blog com CRUD básico (<a href="https://project-blogapp-nodejs.herokuapp.com/">Deploy</a>)
 
 ### Tecnologias
 
