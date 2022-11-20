@@ -12,22 +12,16 @@ Parte 02 -> Projeto de um blog com CRUD básico (<a href="https://project-blogap
 ### Tecnologias
 
 - [x] <a href="https://nodejs.org/en/" target="_blank">Node.JS </a>
-
 - [x] <a href="https://expressjs.com/pt-br/" target="_blank">Express </a>
-
 - [x] <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript </a>
-
 - [x] <a href="https://www.mysql.com/" target="_blank">MySQL </a>
-
 - [x] <a href="https://sequelize.org/" target="_blank">Sequelize </a>
-
 - [x] <a href="https://www.mongodb.com/" target="_blank">MongoDB </a>
-
 - [x] <a href="https://handlebarsjs.com/" target="_blank">Handlebars </a>
-
 - [x] <a href="https://handlebarsjs.com/" target="_blank">Passport.js </a>
-
+- [x] <a href="https://www.npmjs.com/package/bcryptjs"> BcryptJS </a>
 - [x] <a href="https://www.passportjs.org/" target="_blank">Heroku </a>
+
 
 ### Impacto
 
